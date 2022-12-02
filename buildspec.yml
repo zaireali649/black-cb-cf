@@ -4,3 +4,4 @@ phases:
   build:
     commands:
       - echo "In buildspec"
+      - aws cloudformation create-stack --stack-name myteststack --template-body file://cf_black.json
