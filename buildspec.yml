@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Creating Stack"
+      - aws cloudformation create-stack --stack-name myteststack --template-body file://cf_black.json
