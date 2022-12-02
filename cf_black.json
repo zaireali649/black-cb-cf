@@ -8,9 +8,7 @@
         },
 		"S3Bucket002": {
             "Type": "AWS::S3::Bucket",
-            "Properties": {
-                "BucketName": "luit-black-nov-bucket-cf-002"
-            }
+            "Properties": {}
         },
 		"MyEC2Instance001" : {
 			"Type" : "AWS::EC2::Instance",
